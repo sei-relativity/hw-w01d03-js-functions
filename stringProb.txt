@@ -1,0 +1,19 @@
+Method1 : 
+name : String Length
+descreption : it returns how many digits in the value.
+example : let name = "fahad"; let nameL = name.length; //the answer should be 5.
+
+Method2 :
+name : slice
+descreption : extracts a part of a string and returns the extracted part in a new string.
+example : let lis = "Apple, Banana, Kiwi"; var res = str.slice(1, 5); // res value will be "Apple".
+
+Method3 : 
+name : replace string content
+descreption : method replaces a specified value with another value in a string.
+example : let message = "Please visit Microsoft!"; let n = message.replace("Microsoft", "W3Schools");
+
+Method4 :
+name : converting to upper cases:
+descreption : makes the string upper case.
+example : let name = "fahad"; let NAME = name.toUpperCase(); 
