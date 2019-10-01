@@ -21,7 +21,6 @@ const playGame = function(choice) {
     }
 
 }
-
 console.log(playGame('rock'))
 console.log(playGame('scissors'))
 console.log(playGame('paper'))
