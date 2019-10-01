@@ -28,23 +28,29 @@
 
 Method 1
 ```
-Name:
-Description:
+Name: length
+Description: return the length of the string
 Example using it:
+const name : "Lamees"
+console.log(name.length) // result will be 6
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: slice
+Description: it return part of the string you specified
 Example using it:
+const test = "this is a test"
+console.log(test.slice(5,9)) // result will be "is a" 
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: replace
+Description: it replace the words in the string with the new word tou give it
 Example using it:
+const oneMore: "this is the last function"
+console.log(oneMore.replace('function','methode'))// result will be 'this is the last methode'
 ```
 
 ## [License](LICENSE)
