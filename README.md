@@ -28,23 +28,44 @@
 
 Method 1
 ```
-Name:
+Name: 
+    String Length
+
 Description:
-Example using it:
+    This method basically counting how many litter in the string and we use it a lot in for loop statement while we have array
+
+Example using it: 
+    var txt = "GA";
+    var coun = txt.length;
+    // > 2
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: 
+    The substring() Method
+
+Description: 
+    This method take the range of the string depends on index first letter is means 0, also include two argument (start, until -1) and spice() is similar.
+
 Example using it:
+    let str = "General Assembly";
+    let x = str.substring(3, 7);
+    // > eral
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: 
+    Replacing String Content
+
+Description: 
+    It takes two arguments first which incloude in the string that we want to change and the second the new word, also it is case sensitive finally it's only the changed happen in the first word.
+
+Example using it: 
+    str = "Please visit GA!";
+    let n = str.replace("GA", "MISK");
+    // > Please visit MISK!
 ```
 
 ## [License](LICENSE)
