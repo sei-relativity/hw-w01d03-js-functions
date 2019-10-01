@@ -8,7 +8,6 @@ const rollDice = function(num = 2) {
         return (rollDice(num - 1) + num1)
     }
 }
-
 console.log(rollDice(3))
 console.log(rollDice())
 console.log(rollDice(0))
