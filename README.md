@@ -28,23 +28,38 @@
 
 Method 1
 ```
-Name:
-Description:
+Name: string.trim()
+Description: removes white space from string
 Example using it:
+
+	* var str = "       Hello World!        ";
+	* alert(str.trim());
+
+
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: toUpperCase()
+Description: converts string to upper case
 Example using it:
+
+	* var text1 = "Hello World!";
+	* var text2 = text1.toUpperCase()
+
+
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: slice()
+Description: extracts part of a string and returns extracted prt in a new string
 Example using it:
+
+	* var str = "Apple, Banana, Kiwi";
+	* var res = str.slice(7, 13);
+
+
 ```
 
 ## [License](LICENSE)
