@@ -28,23 +28,25 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: substring() 
+Description: The substring()  method extract a part of a string and returns the extracted parts in a new string 
+Example using it: let  str = "Apple, Banana, Kiwi";
+let res = str.substring(7,13);
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name: replace() 
+Description: The replace() method replaces a specified value with another value in a string
+Example using it:  let txt = str.replace("Microsoft","W3Schools");
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: toUpperCase()
+Description: A string is converted to upper case with toUpperCase()
+Example using it: let text1 = "Hello World!";   
+let  text2 = text1.toUpperCase();
 ```
 
 ## [License](LICENSE)
