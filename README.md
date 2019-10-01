@@ -28,23 +28,29 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: length()
+Description: finds the length of a string 
+Example using it: 
+str = "helllooooooooo"
+let x = str.length()
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name: indexOf('word', optional starting position)
+Description: Find the location of the first letter of a specific word in the string, if the word is repeated, it will only fetch the first one. if a starting position was passed then it will start searching after than position even if the word was repated behind the position 
+Example using it: 
+let str = "hey I just really wanted to say hey"
+let x = str.indexOf('hey', 10)
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: lastIndexOf()
+Description: Find the location of the first letter of a specific word in the string, if the word is repeated, it will fetch the last one. if a starting position was passed then it will start searching from the position to the beginning of the string 
 Example using it:
+let str = "hey I just really wanted to say hey"
+let x = str.lastIndexOf('hey', 10)
 ```
 
 ## [License](LICENSE)
