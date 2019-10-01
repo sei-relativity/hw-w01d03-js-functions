@@ -28,23 +28,23 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name:   String Length, string.length
+Description: it's a method used to determine the length of a string
+Example using it: x = "abc"; console.log(x.length) => 3
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name:   String Trim, String.trim()
+Description:    remove the whitespace from both sides of a string
+Example using it:   x= "            hello   "; console.log(x.trim()) => "hello"
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name:   Converting to Upper and Lower Case, string.toUpperCase() or string.toLowerCase()
+Description: converts all of a string characters to upper case or lowercase
+Example using it: x= "tHe Hungr GameS"; console.log(x.toUpperCase()) => "THE HUNGER GAMES"
 ```
 
 ## [License](LICENSE)
