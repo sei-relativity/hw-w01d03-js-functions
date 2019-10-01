@@ -28,23 +28,26 @@
 
 Method 1
 ```
-Name:
-Description:
+Name:length
+Description: returns the length of a string
 Example using it:
+console.log("123".length)//3
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name:replace
+Description:replace the first instance of a value in a string with another value
 Example using it:
+console.log('Hello X X'.replace('X','Y'))//'Hello Y X'
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: toUpperCase
+Description: converts all letters in a string to uppercase
 Example using it:
+console.log('abc'.toUpperCase())//'ABC'
 ```
 
 ## [License](LICENSE)
