@@ -1,8 +1,8 @@
 let userOp = prompt("Rock, Paper, or Scissors");
  let compOp = Math.floor(Math.random()*3);
 
-    if (compOp === 0) {returne "Scissors";}
-    if (compOp === 1)  {returne= "Paper";}
+    if (compOp === 0) {returne = "Scissors";}
+    if (compOp === 1)  {returne = "Paper";}
     if (compOp === 2)  {returne = "Rock";}
 
  let playGame = function(userOp,compOp){
@@ -23,4 +23,4 @@ let userOp = prompt("Rock, Paper, or Scissors");
     }
 };
 
-playGame(userOp,compOp);
+playGame(1,2);
