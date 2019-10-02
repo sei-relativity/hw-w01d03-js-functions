@@ -28,23 +28,35 @@
 
 Method 1
 ```
-Name:
-Description:
+Name: Replacing String Content
+Description: The replace() method replaces a specified value with another value in a string:
 Example using it:
+function myFunction() {
+  var str = document.getElementById("demo").innerHTML; 
+  var txt = str.replace("Microsoft","W3Schools");
+  document.getElementById("demo").innerHTML = txt;
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: Converting to Upper
+Description: A string is converted to upper case with toUpperCase():
 Example using it:
+function myFunction() {
+  var text = document.getElementById("demo").innerHTML;
+  document.getElementById("demo").innerHTML = text.toUpperCase();
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: Converting a String to an Array
+Description: A string can be converted to an array with the split() method:
 Example using it:
+function myFunction() {
+  var str = "a,b,c,d,e,f";
+  var arr = str.split(",");
+  document.getElementById("demo").innerHTML = arr[0];
+}
 ```
 
 ## [License](LICENSE)

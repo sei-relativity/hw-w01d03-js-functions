@@ -19,4 +19,4 @@ let playGame = function(myChoice) {
    (myChoice == "Rock" && opponentChoice == "Rock")) return tie;
         else return lose;
 };
-playGame("myChoice");
+playGame("myChoice"); 
