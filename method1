@@ -1,0 +1,7 @@
+Name:
+Description:
+Example using it:
+Name: substring() 
+Description: The substring()  method extract a part of a string and returns the extracted parts in a new string 
+Example using it: let  str = "Apple, Banana, Kiwi";
+let res = str.substring(7,13);

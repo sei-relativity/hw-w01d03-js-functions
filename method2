@@ -1,0 +1,7 @@
+Name:
+Description:
+Name: toUpperCase()
+Description: converts string to upper case
+Example using it:
+	* var text1 = "Hello World!";
+	* var text2 = text1.toUpperCase()
