@@ -12,11 +12,13 @@ twoRandom();
 //this is bouns question
 
 const twoRandom = function(rolled){
-    const random = Math.floor((Math.random() * rolled) + 1);
+    let sum =0;
     for (let i =0; i < rolled; i++){
-        console.log( random );
+        const random = Math.floor((Math.random() * rolled) + 1);
+		console.log(random);
+        sum += random;
     }
-
+	return sum;
 }
 twoRandom(3);
 
