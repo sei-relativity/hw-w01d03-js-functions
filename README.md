@@ -28,23 +28,27 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: String Length
+Description: Returns the length of a string
+Example using it: let x="Hello";
+let l = x.length;
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name: Finding a String in a String
+Description: indexof() method returns the index of the first occurence of a specified text in a string. And lastIndexOf() method returns the index of the last occurence of a specified text in a string. 
+Example using it: let x="Please locate number where 'number' occurs!";
+let s= x.indexOf("number");
+let ls= x.lastIndexOf("number");
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: Search
+Description: It searches a string for a specified value and returns the position of the match
+Example using it: let x="Please locate number where 'number' occurs!";
+let s= x.search("number");
 ```
 
 ## [License](LICENSE)
