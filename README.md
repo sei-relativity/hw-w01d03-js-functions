@@ -28,23 +28,29 @@
 
 Method 1
 ```
-Name:
-Description:
+Name: String Length
+Description: The length property returns the length of a string.
 Example using it:
+const txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const sln = txt.length;
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: The slice() Method
+Description: slice() extracts a part of a string and returns the extracted part in a new string.The method takes 2 parameters: the start position, and the end position (end not included).This example slices out a portion of a string from position 7 to position 12 (13-1).
 Example using it:
+const str = "Apple, Banana, Kiwi";
+const res = str.slice(7, 13);
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: The concat() Method
+Description: concat() joins two or more strings.The concat() method can be used instead of the plus operator.
 Example using it:
+const text = "Hello" + " " + "World!";
+const text = "Hello".concat(" ", "World!");
 ```
 
 ## [License](LICENSE)
