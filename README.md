@@ -28,23 +28,23 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
-```
+Name:Searching for a String in a String
+Description:it is a funcation that can return the index of the sting you are looking for 
+Example using it:str.search("your string"); 
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name:String Length
+Description:string is an array of elements ,and this funcation return integer of the string length 
+Example using it: txt.length
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name:Replacing String Content
+
+Description: function that can replce the a string that is inside the string 
+Example using it: tr.replace("string looking","replace string ")
 ```
 
 ## [License](LICENSE)
