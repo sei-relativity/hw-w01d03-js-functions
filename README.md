@@ -28,23 +28,23 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: length()
+Description: measure the length of an index
+Example using it: class.length();
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name: indexOf()
+Description: return the first string in an index
+Example using it: class.indexOf()
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: lastIndexOf()
+Description: return the last string of an index
+Example using it: class.lastIndexOf()
 ```
 
 ## [License](LICENSE)
