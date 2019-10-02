@@ -17,34 +17,74 @@
     - Example: `playGame('rock') // Computer picked: paper. User picked: rock.  User lose.`
     - _**Hint:** Javascript includes a `Math.random` method._
 
+    rps.js
+    let userChoice = prompt("please choose one from 'rock', 'paper','scissors'");
+    let array =['paper', 'rock', 'scissors'];
+    let random = Math.floor(Math.random() * 3);
+    let compChoice = array[random] ;
+    if (userChoice === compChoice){
+
+        console.log("Tie") ;
+        }
+    else if (userChoice === 'paper' && compChoice === 'rock') {
+        console.log("You Wine !") ;
+    }
+    else if (userChoice === 'rock' && compChoice === 'scissors'){
+        console.log("You Wine!") ;
+    }
+    else if (userChoice === 'scissors' && compChoice === 'rock'){
+        console.log("You Lose!") ;
+    }
+    else if (userChoice === 'rock' && compChoice === 'paper'){
+        console.log("You Lose!") ;
+    }
+    else if (userChoice === 'paper' && compChoice === 'scissors'){
+        console.log("You Lose!") ;
+    }
+    else if (userChoice === 'scissors' && compChoice === 'paper'){
+        console.log("You Lose!") ;
+    }
+    else {console.log ("invalid input , try again ");
+    }
+
 2. Dice Roller
     - Create a file in this repo and name it `dice.js`
     - Write a function that chooses two random numbers (1-6) and returns them. It should also return the sum.
     - Example: `rollDice() // Dice rolled are 6 and 1.  Sum is 7`
     - BONUS: have your function take an argument of the # of dice to be rolled.
     - Example: `rollDice(3) // Dice rolled are 4, 2, and 7.  Sum is 13.`
+ const rollDic = function (){
+     num1 = Math.floor(Math.random() *6) +1;
+     num2 = Math.floor(Math.random() *6) +1;
+     num3=num1+num2 ;
+     console.log("Diced Rolled are " +num1+ " and " + num2 +"sum is "+num3);
+
+ }
 
 3.  Research 3 string methods and describe what they are used for and how to use them.  You can find string methods here https://www.w3schools.com/js/js_string_methods.asp
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: replace() 
+Description: replaces a specified value with another value in a string
+Example using it: str = "Please visit Microsoft!";
+var n = str.replace("Microsoft", "W3Schools")
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name: trim()
+Description: removes whitespace from both sides of a string
+Example using it: var str = "       Hello World!        ";
+alert(str.trim());
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: search()  
+Description: searches a string for a specified value and returns the position of the match
+Example using it: var str = "Please locate where 'locate' occurs!";
+var pos = str.search("locate");
 ```
 
 ## [License](LICENSE)
