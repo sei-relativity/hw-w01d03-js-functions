@@ -8,6 +8,6 @@ const rollDice = function (rolling) {
 
         const sum = numberOne + numberTwo;
 
-        console.log("Dice rolled are " + (i + 1) + " ," + numberOne + ", and " + numberTwo + ". Sum is " + sum);
+        console.log("Dice rolled are " + (i + 1) + ", " + numberOne + ", and " + numberTwo + ". Sum is " + sum);
     }
 };
