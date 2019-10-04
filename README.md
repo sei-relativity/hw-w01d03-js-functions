@@ -28,30 +28,36 @@
 
 Method 1
 ```js
-/* Name: length
+/*
+Name: length
 Description: This property returns the length of a string
-Example using it: */
+*/
 
+// Example using it:
 let name = "Moayad Alnuwaysir";
 name.length; // it should return 17
 ```
 
 Method 2
 ```js
-/* Name: indexOf()
+/*
+Name: indexOf()
 Description: This method returns the index of the first appearance of a particular text within a string.
-Example using it: */
+*/
 
+// Example using it:
 let name = "Moayad Alnuwaysir";
 name.indexOf("Alnuwaysir"); // it should return 7
 ```
 
 Method 3
 ```js
-/* Name: charAt()
+/*
+Name: charAt()
 Description: This method returns the character at a particular index within a string
-Example using it: */
+*/
 
+// Example using it:
 let name = "Moayad";
 name.charAt(0);  // it should return M
 ```
