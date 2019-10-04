@@ -27,24 +27,33 @@
 3.  Research 3 string methods and describe what they are used for and how to use them.  You can find string methods here https://www.w3schools.com/js/js_string_methods.asp
 
 Method 1
-```
-Name:
-Description:
-Example using it:
+```js
+/* Name: length
+Description: This property returns the length of a string
+Example using it: */
+
+let name = "Moayad Alnuwaysir";
+name.length; // it should return 17
 ```
 
 Method 2
-```
-Name:
-Description:
-Example using it:
+```js
+/* Name: indexOf()
+Description: This method returns the index of the first appearance of a particular text within a string.
+Example using it: */
+
+let name = "Moayad Alnuwaysir";
+name.indexOf("Alnuwaysir"); // it should return 7
 ```
 
 Method 3
-```
-Name:
-Description:
-Example using it:
+```js
+/* Name: charAt()
+Description: This method returns the character at a particular index within a string
+Example using it: */
+
+let name = "Moayad";
+name.charAt(0);  // it should return M
 ```
 
 ## [License](LICENSE)
