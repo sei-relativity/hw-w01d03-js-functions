@@ -1,0 +1,43 @@
+let x = [10, 2, 15, -2,-10];
+let New = [];
+let length = 1; 
+function Sum (x){
+  for (let i = 0; i<x.length; i++){
+    for (let l=0; l<length; l++){
+if (x[i]<0){
+ 
+New[0] += x[i];
+
+}
+if (x[i]>0){
+ New[1] = console.count(x[i]); 
+}
+
+    }
+  }
+}
+Sum(x);
+console.log(New);
+
+
+/////
+
+
+let x = [10, 2, 15, -2,-10];
+let New = [0,0];
+let length = 1; 
+function Sum (x){
+  for (let i = 0; i<x.length; i++){
+    for (let l=0; l<length; l++){
+        if (x[i]<0){
+          New[0] += x[i];
+           }
+        if (x[i]>0){
+          New[1]++ // New[1] +=1 // New[1] = New; 
+        }
+
+    }
+  }
+}
+Sum(x);
+console.log(New);
