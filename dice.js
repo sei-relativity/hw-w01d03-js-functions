@@ -3,3 +3,4 @@ const rollDice = function() {
     let y = Math.floor(Math.random() * 6) +1;
     return x + y;
 }
+
