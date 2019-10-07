@@ -1,54 +1,71 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
+1#
+let array=['paper','rock','scissors'] ; 
+let random=Math.floor(Math.random() *(array.length));
+let computerChoice=array[random] ; 
 
-# JS Functions HW
+const playGame = function (myChoice){
+ 
+ if (myChoice === computerChoice) {
 
-## Instructions
+       console.log("Tie") ; } 
 
-1. Fork and clone this repository.
-1. Change into the new directory.
-1. Create and checkout a new branch, named `response`.
-1. When finished, `git add`, `git commit`, `git push` to your fork and submit a pull request.
+else if (myChoice === 'paper' && computerChoice ==='rock' ) {
+    console.log(" User You Win !") ; 
+} 
+else if (myChoice === 'rock'&& computerChoice==='scissors') {
+    console.log(" User You Win !") ; 
 
-## Questions
+}
+else if (myChoice === 'scissors'&& computerChoice==='rock') {
+    console.log("User You Lose !") ; 
 
-1. [Rock, Paper, Scissors](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) ([watch the game](https://www.youtube.com/watch?v=JtcHmiAcbZc))
-    - Create a file in this repo named `rps.js`
-    - Write a function that takes `rock`, `paper`, or `scissors` as an argument for the user choice, then chooses `rock`, `paper`, or `scissors` randomly for the computer choice, and returns whether the user `win`, `lose`, or `tie`.
-    - Example: `playGame('rock') // Computer picked: paper. User picked: rock.  User lose.`
-    - _**Hint:** Javascript includes a `Math.random` method._
+}
+else if (myChoice === 'rock'&& computerChoice==='paper') {
+    console.log(" User You Lose !") ; 
 
-2. Dice Roller
-    - Create a file in this repo and name it `dice.js`
-    - Write a function that chooses two random numbers (1-6) and returns them. It should also return the sum.
-    - Example: `rollDice() // Dice rolled are 6 and 1.  Sum is 7`
-    - BONUS: have your function take an argument of the # of dice to be rolled.
-    - Example: `rollDice(3) // Dice rolled are 4, 2, and 7.  Sum is 13.`
+}
+else if (myChoice === 'paper'&& computerChoice==='scissors') {
+    console.log("User You Lose !") ; 
 
-3.  Research 3 string methods and describe what they are used for and how to use them.  You can find string methods here https://www.w3schools.com/js/js_string_methods.asp
+}
+else if (myChoice === 'scissors'&& computerChoice==='paper') {
+    console.log("User You Lose !") ; 
 
-Method 1
-```
-Name:
-Description:
+}
+
+}
+
+
+2#
+const diceRoller = function(){
+    let numOne= Math.floor(Math.random() * 6 ) + 1;
+    let numTwo= Math.floor(Math.random() * 6 ) + 1;
+    
+    return "Dice rolled are " + numOne +  " and " + numTwo  +" Sum is " + (numberOne + numberTwo);
+    } 
+
+
+3#
+
+Name: toUpperCase()
+Description: converte string to upper case 
 Example using it:
-```
+var Name = "dalia" 
+var NameInUpperCase = Name.toUpperCase();
 
-Method 2
-```
-Name:
-Description:
+
+
+Name: concat()
+Description: To join two or more strings 
+Example using it: 
+    var text1 = "hope"; 
+    var text2 = text1.concat('my ',' future',' will',' lead',' new destination'); 
+    console.log (text2);
+
+
+
+ Name: charAt()
+Description: returns the character at a specified index in a string
 Example using it:
-```
-
-Method 3
-```
-Name:
-Description:
-Example using it:
-```
-
-## [License](LICENSE)
-
-1. All content is licensed under a CC­BY­NC­SA 4.0 license.
-1. All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
+var Name = "dalia";
+Name.charAt(0); 
