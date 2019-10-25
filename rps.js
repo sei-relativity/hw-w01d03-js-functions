@@ -1,11 +1,11 @@
-var userChoice = prompt("Do you choose rock , paper or scissors?");
-var computerChoice = Math.randome();
+const  userChoice = prompt("Do you choose rock , paper or scissors?");
+const  computerChoice = Math.randome();
  if (computerChoice<0.34 ){
      computerChoice="rock";
  } else if (computerChoice<=0.67){
      computerChoice="paper";
  }else{computerChoice="scissors"};
- var compare = function (choice1 , choice2){
+ const compare = function (choice1 , choice2){
      if (choice1 === choice2){
          return "the result is tie";
      }
